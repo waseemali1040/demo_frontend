@@ -5,7 +5,7 @@ const ApiService={
     init(app){
         app.use(VueAxios, axios)
         this.axios = axios;
-        this.axios.defaults.baseURL = 'http://localhost/demo/';
+        this.axios.defaults.baseURL = 'http://localhost/demo_backend/';
         return this;
     },
 
